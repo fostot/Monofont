@@ -268,6 +268,6 @@ This parses `spleen-8x16.bdf` and outputs the `Encodings[]` and `GlyphData[]` ar
 
 ## License
 
-Monofont source code is provided as-is.
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 The embedded font data is from [Spleen](https://github.com/fcambus/spleen) by Frederic Cambus, licensed under the [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause).
