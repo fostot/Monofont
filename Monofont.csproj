@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Monofont</AssemblyName>
+    <RootNamespace>Monofont</RootNamespace>
+    <OutputPath>bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
+
+  <!-- Exclude non-C# files from compilation -->
+  <ItemGroup>
+    <None Remove="gen_monofont.py" />
+    <None Remove="spleen-8x16.bdf" />
+  </ItemGroup>
+
+</Project>
